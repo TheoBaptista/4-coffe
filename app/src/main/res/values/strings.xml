@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">4 Coffe</string>
+    <string name="app_name">4 Coffee</string>
+    <string name="_4coffe">4 Coffee</string>
+    <string name="enter">Enter</string>
 </resources>

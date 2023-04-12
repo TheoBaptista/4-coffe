@@ -9,10 +9,14 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.4Coffe"
+        android:theme="@style/Theme.4Coffee"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.activity.ListCoffeeActivity"
+            android:exported="true"
+            android:parentActivityName=".ui.activity.ListCoffeeActivity" />
+        <activity
+            android:name=".ui.activity.IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,5 +25,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
