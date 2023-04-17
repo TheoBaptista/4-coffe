@@ -49,7 +49,7 @@ class AddCoffeeForm : AppCompatActivity() {
         button.setOnClickListener {
             val coffee = createCoffee()
 
-            if (coffee.name.isBlank() && coffee.grain.isBlank()) {
+            if (coffee.name.isBlank() || coffee.grain.isBlank()) {
                 Toast.makeText(
                     this,
                     "O Nome e o tipo do grão não podem ficar em branco!",
