@@ -2,4 +2,15 @@
     <string name="app_name">4 Coffee</string>
     <string name="_4coffe">4 Coffee</string>
     <string name="enter">Enter</string>
+    <string name="add_coffee">Add Coffee</string>
+    <string name="nome_da_bebida">Nome da bebida</string>
+    <string name="nome">Nome da bebida</string>
+    <string name="save_coffee">Save coffee</string>
+    <string name="intensidade">Intensidade</string>
+    <string name="fica_bom_com">Fica bom com</string>
+    <string name="gr_o_usado">Grão usado</string>
+    <string name="coffee_name">Coffee Name</string>
+    <string name="grain_type">Grain Type</string>
+    <string name="intensity">Intensity</string>
+    <string name="goes_well_with">Goes Well With</string>
 </resources>

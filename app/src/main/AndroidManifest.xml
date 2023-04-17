@@ -12,6 +12,10 @@
         android:theme="@style/Theme.4Coffee"
         tools:targetApi="31">
         <activity
+            android:name=".ui.activity.AddCoffeeForm"
+            android:exported="true"
+            android:parentActivityName=".ui.activity.ListCoffeeActivity"/>
+        <activity
             android:name=".ui.activity.ListCoffeeActivity"
             android:exported="true"
             android:parentActivityName=".ui.activity.ListCoffeeActivity" />
@@ -25,4 +29,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
